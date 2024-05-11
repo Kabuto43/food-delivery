@@ -5,7 +5,7 @@
 Let’sFood
 =========
 
-![Let'sFood Logotype](assets/logo.png)](#)
+![[Let'sFood Logotype](assets/logo.png)](#)
 
 *   [Home](#)
 *   [Menu](#)
