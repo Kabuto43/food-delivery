@@ -1,43 +1,19 @@
-Document
+# Food Delivery Website
 
-Let’sFood
-=========
+[Let'sFood ![Let'sFood Logotype](assets/logo.svg)](#) 
 
-![[Let'sFood Logotype](assets/logo.png)](#)
+This is a simple HTML file for a food delivery website.
 
-*   [Home](#home)
-*   [Menu](#menu)
-*   [How it works](#how-it-works)
-*   [About](#about)
-*   [Contact](#contact)
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
 
----
+## Description
+This HTML file represents the structure of a food delivery website. It includes a header with navigation links, a main section, and a footer.
 
-## Home
+## Installation
+To run this HTML file locally, you can simply download the file and open it in a web browser.
 
-Welcome to Let'sFood! We offer a wide range of delicious dishes made with fresh ingredients sourced locally. Explore our menu to discover your new favorites.
-
----
-
-## Menu
-
-Check out our mouthwatering menu featuring appetizers, entrees, desserts, and more! Whether you're craving something savory or sweet, we have something for everyone.
-
----
-
-## How it works
-
-Curious about how Let'sFood operates? Learn about our ordering process, delivery options, and how we ensure your food arrives fresh and on time.
-
----
-
-## About
-
-Discover the story behind Let'sFood. Learn about our commitment to quality, sustainability, and supporting local communities.
-
----
-
-## Contact
-
-Have questions or feedback? We'd love to hear from you! Contact our friendly team for assistance with orders, inquiries, or any other concerns.
-
+## Usage
+You can use this HTML file as a starting point to build your food delivery website. You can customize the content, styles, and functionality according to your requirements.
