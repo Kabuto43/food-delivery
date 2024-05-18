@@ -1,2 +1,9 @@
-@use "variables" as v;
+@use "variables" as var;
 @use "importer";
+
+body {
+    color: var.$text_color;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}

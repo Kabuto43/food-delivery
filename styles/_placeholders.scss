@@ -1,0 +1,10 @@
+@use 'variables' as var;
+
+%hover {
+    &:hover {
+        cursor: pointer;
+        color: var.$text_color;
+        margin-bottom: 3px;
+        border-bottom: 3px solid var.$color_yellow;
+    }
+}

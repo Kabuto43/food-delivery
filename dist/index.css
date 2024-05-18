@@ -1,7 +1,100 @@
 .header {
   width: 100%;
   height: 100px;
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  background-color: #FFF9EA;
+}
+.header .nav {
+  max-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .nav__logo {
+  max-width: 160px;
+  max-height: 47px;
+}
+.header .nav__logo .title {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+.header .nav__logo .logotype {
+  display: inline-block;
+  width: 41px;
+  height: 32px;
+}
+.header .nav__links {
+  margin-left: 129px;
+}
+.header .nav__links-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .nav__links-item {
+  margin: 0 37px 0 0;
+}
+.header .nav__links-item-link {
+  text-decoration: none;
+  position: relative;
+  color: rgba(29, 29, 29, 0.7);
+  transition: color 0.3s ease;
+}
+.header .nav__links-item-link:last-child {
+  margin: 0 0 0 0;
+}
+.header .nav__links-item-link:hover {
+  color: rgb(0, 0, 0);
+}
+.header .nav__links-item-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 3px;
   background-color: #FFCB45;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+.header .nav__links-item-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.header .nav .search-icon {
+  margin-left: 74px;
+}
+.header .nav__icon {
+  margin-right: 30px;
+}
+.header .nav__icon:last-child {
+  margin-right: 0;
+}
+.header .nav .sign-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 122px;
+  height: 38px;
+  border-radius: 50px;
+  background: #FFCB45;
+}
+.header .nav .sign-in__icon {
+  margin-right: 16px;
+}
+.header .nav .sign-in__text {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-weight: 800;
+}
+.header .nav .sign-in:hover {
+  cursor: pointer;
+  box-shadow: 0 0 8px #FFCB45;
+  transition: 0.3s;
 }
 
 * {
@@ -30,6 +123,13 @@ a {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+body {
+  color: rgba(29, 29, 29, 0.7);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=index.css.map */
